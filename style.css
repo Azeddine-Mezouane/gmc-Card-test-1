@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   display: flex;
-  background-color: red;
+  background-color: #e4ebe4;
   justify-content: center;
   align-items: center;
 }
@@ -15,7 +15,7 @@ body {
   height: 900px;
   width: 900px;
   border-radius: 70px;
-  background-color: antiquewhite;
+  background-color: #ffffff;
   overflow: hidden;
 }
 .top {

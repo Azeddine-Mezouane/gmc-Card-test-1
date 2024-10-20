@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+#c {
+  height: 900px;
+  width: 900px;
+  border-radius: 70px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+.top {
+  height: 250px;
+  background-color: #759274;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  margin-top: 220px;
+}
+.image img {
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  outline: 5px solid #759274;
+}
+.bottom {
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  margin-top: 170px;
+}
+.title h1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+.title h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#SG {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  color: white;
+  font-size: 45px;
+}
+.Github {
+  background: rgb(18, 18, 18);
+}
+
+.x {
+  background: rgb(17, 156, 231);
+}
+.linkedin {
+  background: rgb(51, 127, 213);
+}
+
+.buttons {
+  gap: 500px;
+}
+
+.buttons button {
+  margin: 40px 15px;
+  padding: 15px 32px;
+  border-radius: 35px;
+  font-size: 25px;
+  color: white;
+  background-color: #759274;
+  gap: 500px;
+}
+.iconT {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.iconT .ligne {
+  width: 2px;
+  background-color: #5c5c5c;
+}
+.iconT i {
+  font-size: 40px;
+  color: #759274;
+}
+
+.iconT p {
+  font-size: 25px;
+}
+
+.iconT div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
